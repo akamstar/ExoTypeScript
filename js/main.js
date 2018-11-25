@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var date_1 = require("./date");
+var Task_1 = require("./Task");
+var Project_1 = require("./Project");
+var project = new Project_1.Project();
+var time = new date_1.date(2018, 11, 25);
+var priorite = 2;
+var task1 = new Task_1.Task("Envoi de l'exo de typeScript sur GitHub", time, priorite);
+//project.Add(task1);
+project.all;
